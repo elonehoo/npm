@@ -10,6 +10,7 @@
   >
     <div flex-auto />
     <NavBarLogo />
+    <NavBarAvatar />
     <NavBarGitHub />
     <ToggleDarkToggle flex-none />
   </nav>
