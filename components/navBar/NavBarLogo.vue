@@ -2,9 +2,12 @@
 </script>
 
 <template>
-  <div p="t-8px" w-70px h-24px flex="block grow-0 shrink-1 basis-1px" m="t-1rem" min-w-0 min-h-0>
+  <div
+    absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center
+    text-xl font-light tracking-2px pointer-events-none
+  >
     <NuxtLink to="/">
-      <div i-logos-npm w-70px h-24px />
+      <div i-logos-npm w-100px h-100px />
     </NuxtLink>
   </div>
 </template>
