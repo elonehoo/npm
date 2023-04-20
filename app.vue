@@ -11,9 +11,9 @@ useHead({
 
 <template>
   <NuxtLayout>
-    <NavBar />
-    <Search />
     <main font-sans text="center gray-700 dark:gray-200">
+      <NavBar />
+      <Search />
       <NuxtPage />
     </main>
   </NuxtLayout>
