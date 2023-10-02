@@ -16,9 +16,9 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.4.1",
-    "nuxt": "^3.7.3",
+    "nuxt": "^3.7.4",
     "pinia": "^2.1.6",
-    "unocss": "^0.56.1"
+    "unocss": "^0.56.4"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.43.1",
@@ -26,10 +26,10 @@
     "@iconify-json/logos": "^1.1.37",
     "@iconify-json/mdi": "^1.1.54",
     "@iconify-json/twemoji": "^1.1.12",
-    "@nuxt/devtools": "^0.8.4",
+    "@nuxt/devtools": "^0.8.5",
     "@nuxtjs/color-mode": "^3.3.0",
     "@pinia/nuxt": "^0.4.11",
-    "@unocss/nuxt": "^0.56.1",
+    "@unocss/nuxt": "^0.56.4",
     "@vueuse/nuxt": "^10.4.1",
     "bumpp": "^9.2.0",
     "eslint": "^8.50.0",
