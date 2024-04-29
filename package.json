@@ -27,7 +27,7 @@
     "@iconify-json/mdi": "^1.1.66",
     "@iconify-json/twemoji": "^1.1.15",
     "@nuxt/devtools": "^0.8.5",
-    "@nuxtjs/color-mode": "^3.4.0",
+    "@nuxtjs/color-mode": "^3.4.1",
     "@pinia/nuxt": "^0.5.1",
     "@unocss/nuxt": "^0.59.4",
     "@vueuse/nuxt": "^10.9.0",
