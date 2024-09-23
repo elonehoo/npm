@@ -47,8 +47,8 @@ devDependencies:
     specifier: ^0.62.4
     version: 0.62.4(postcss@8.4.47)(vite@4.5.0)(webpack@5.80.0)
   '@vueuse/nuxt':
-    specifier: ^10.11.1
-    version: 10.11.1(nuxt@3.13.2)(vue@3.5.5)
+    specifier: ^11.1.0
+    version: 11.1.0(nuxt@3.13.2)(vue@3.5.5)
   bumpp:
     specifier: ^9.5.2
     version: 9.5.2
@@ -3670,21 +3670,39 @@ packages:
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
+    dev: false
+
+  /@vueuse/core@11.1.0(vue@3.5.5):
+    resolution: {integrity: sha512-P6dk79QYA6sKQnghrUz/1tHi0n9mrb/iO1WTMk/ElLmTyNqgDeSZ3wcDf6fRBGzRJbeG1dxzEOvLENMjr+E3fg==}
+    dependencies:
+      '@types/web-bluetooth': 0.0.20
+      '@vueuse/metadata': 11.1.0
+      '@vueuse/shared': 11.1.0(vue@3.5.5)
+      vue-demi: 0.14.10(vue@3.5.5)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: true
 
   /@vueuse/metadata@10.11.1:
     resolution: {integrity: sha512-IGa5FXd003Ug1qAZmyE8wF3sJ81xGLSqTqtQ6jaVfkeZ4i5kS2mwQF61yhVqojRnenVew5PldLyRgvdl4YYuSw==}
+    dev: false
 
-  /@vueuse/nuxt@10.11.1(nuxt@3.13.2)(vue@3.5.5):
-    resolution: {integrity: sha512-UiaYSIwOkmUVn8Gl1AqtLWYR12flO+8sEu9X0Y1fNjSR7EWy9jMuiCvOGqwtoeTsqfHrivl0d5HfMzr11GFnMA==}
+  /@vueuse/metadata@11.1.0:
+    resolution: {integrity: sha512-l9Q502TBTaPYGanl1G+hPgd3QX5s4CGnpXriVBR5fEZ/goI6fvDaVmIl3Td8oKFurOxTmbXvBPSsgrd6eu6HYg==}
+    dev: true
+
+  /@vueuse/nuxt@11.1.0(nuxt@3.13.2)(vue@3.5.5):
+    resolution: {integrity: sha512-ZPYigcqgPPe9vk9nBHLF8p0zshX8qvWV/ox1Y4GdV4k2flPiw7+2THNTpU2NZDBXSOXlhB2sao+paGCsvJm/Qw==}
     peerDependencies:
       nuxt: ^3.0.0
     dependencies:
-      '@nuxt/kit': 3.12.4
-      '@vueuse/core': 10.11.1(vue@3.5.5)
-      '@vueuse/metadata': 10.11.1
+      '@nuxt/kit': 3.13.2(magicast@0.3.5)
+      '@vueuse/core': 11.1.0(vue@3.5.5)
+      '@vueuse/metadata': 11.1.0
       local-pkg: 0.5.0
       nuxt: 3.13.2(eslint@8.57.1)(typescript@5.6.2)(vite@4.5.0)
-      vue-demi: 0.14.8(vue@3.5.5)
+      vue-demi: 0.14.10(vue@3.5.5)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - magicast
@@ -3701,6 +3719,16 @@ packages:
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
+    dev: false
+
+  /@vueuse/shared@11.1.0(vue@3.5.5):
+    resolution: {integrity: sha512-YUtIpY122q7osj+zsNMFAfMTubGz0sn5QzE5gPzAIiCmtt2ha3uQUY1+JPyL4gRCTsLPX82Y9brNbo/aqlA91w==}
+    dependencies:
+      vue-demi: 0.14.10(vue@3.5.5)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: true
 
   /@webassemblyjs/ast@1.11.5:
     resolution: {integrity: sha512-LHY/GSAZZRpsNQH+/oHqhRQ5FT7eoULcBqgfyTB5nQHogFnK3/7QoN7dLnwSE/JkUAF0SrRuclT7ODqMFtWxxQ==}
@@ -9682,6 +9710,7 @@ packages:
         optional: true
     dependencies:
       vue: 3.5.5(typescript@5.6.2)
+    dev: false
 
   /vue-devtools-stub@0.1.0:
     resolution: {integrity: sha512-RutnB7X8c5hjq39NceArgXg28WZtZpGc3+J16ljMiYnFhKvd8hITxSWQSQ5bvldxMDU6gG5mkxl1MTQLXckVSQ==}
