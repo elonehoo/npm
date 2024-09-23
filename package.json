@@ -15,7 +15,7 @@
     "release": "bumpp package.json --commit --push --tag"
   },
   "dependencies": {
-    "@vueuse/core": "^10.11.1",
+    "@vueuse/core": "^11.1.0",
     "nuxt": "^3.13.2",
     "pinia": "^2.2.2",
     "unocss": "^0.62.4"
