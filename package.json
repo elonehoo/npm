@@ -18,7 +18,7 @@
     "@vueuse/core": "^10.11.1",
     "nuxt": "^3.14.159",
     "pinia": "^2.2.6",
-    "unocss": "^0.64.0"
+    "unocss": "^0.64.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.43.1",
@@ -29,7 +29,7 @@
     "@nuxt/devtools": "^0.8.5",
     "@nuxtjs/color-mode": "^3.5.2",
     "@pinia/nuxt": "^0.7.0",
-    "@unocss/nuxt": "^0.64.0",
+    "@unocss/nuxt": "^0.64.1",
     "@vueuse/nuxt": "^10.11.1",
     "bumpp": "^9.8.1",
     "eslint": "^8.57.1",
