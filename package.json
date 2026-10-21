@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@vueuse/core": "^15.0.0",
-    "nuxt": "^3.21.11",
+    "nuxt": "^4.6.2",
     "pinia": "^2.3.1",
     "unocss": "^66.11.0"
   },
