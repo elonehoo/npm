@@ -31,7 +31,7 @@
     "@pinia/nuxt": "^1.0.3",
     "@unocss/nuxt": "^66.11.0",
     "@vueuse/nuxt": "^15.0.0",
-    "bumpp": "^9.11.1",
+    "bumpp": "^12.3.0",
     "eslint": "^10.13.0",
     "ofetch": "^1.5.1",
     "typescript": "^5.9.3"
