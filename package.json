@@ -34,6 +34,6 @@
     "bumpp": "^12.3.0",
     "eslint": "^10.13.0",
     "ofetch": "^1.5.1",
-    "typescript": "^5.9.3"
+    "typescript": "^7.0.2"
   }
 }
